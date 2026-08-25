@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34a50422e82fed1d0e7414d5f4e58105",
+    "content-hash": "1acd5cd0cfae7465d0c6dd0fdde5260b",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2696,6 +2696,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/xml-sitemap-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/zipaddr-jp",
+            "version": "1.44",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/zipaddr-jp/",
+                "reference": "tags/1.44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/zipaddr-jp.1.44.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/zipaddr-jp/"
         },
         {
             "name": "wpengine/advanced-custom-fields-pro",
